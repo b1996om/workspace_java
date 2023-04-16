@@ -1,0 +1,24 @@
+package day24;
+
+public class SuperConstructor {
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+class Car {
+	int wheel;
+	int speed;
+	String color;
+	Car(String color) {
+		this.color = color;
+	}
+}
+class SportsCar extends Car {
+	int speedLimit;
+	SportsCar(String color, int speedLimit) {
+		this.color = color;
+		this.speedLimit = speedLimit;
+	}
+}

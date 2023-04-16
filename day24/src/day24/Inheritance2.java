@@ -1,0 +1,26 @@
+package day24;
+//오버라이딩(메서드 재정의!)-덮어쓴다고 생각하면 된다.
+public class Inheritance2 {
+	public static void main(String[] args) {
+		Leader leader = new Leader();
+		leader.say();
+	}
+}
+class Student2{
+	void learn() {
+		System.out.println("배우기");
+	}
+	void eat() {
+		System.out.println("밥먹기");
+	}
+	void say() {
+		System.out.println("선생님 안녕하세요~");
+	}
+}
+class Leader extends Student2{
+	void lead() {}
+	void say() {  //메서드 오버라이딩(메서드 재정의)-위 클래스의 say 출력을 다른걸로 바꾸겠다.
+		System.out.println("선생님께 인사!");
+		super.say();
+	}
+}

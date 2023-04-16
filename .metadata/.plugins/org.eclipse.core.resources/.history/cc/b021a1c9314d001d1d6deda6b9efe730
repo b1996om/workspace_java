@@ -1,0 +1,11 @@
+package day24;
+
+public class ObjectTest {
+	public static void main(String[] args) {
+		Aclass a = new Aclass();
+	}
+
+}
+class Aclass {
+	
+}

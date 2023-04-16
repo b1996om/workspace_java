@@ -1,0 +1,11 @@
+package day07;
+
+import java.util.Scanner;
+
+public class Practice_ifif {
+
+	public static void main(String[] args) {
+		String id, password;
+	}
+
+}

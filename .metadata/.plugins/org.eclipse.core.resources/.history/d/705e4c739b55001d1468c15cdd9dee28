@@ -1,0 +1,14 @@
+package day07;
+
+import java.util.Scanner;
+
+public class Practice_ifif {
+
+	public static void main(String[] args) {
+		String id, password;
+		Scanner input = new Scanner(System.in);
+		System.out.println("아이디를 입력해주세요:");
+		id = input.nextLine();
+	}
+
+}

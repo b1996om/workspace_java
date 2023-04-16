@@ -1,0 +1,13 @@
+package day02;
+//준비 1: 입력기능을 내 코드에 연결시켜줘
+import java.util.Scanner;
+
+public class Day02input {
+
+	public static void main(String[] args) {
+       //준비 2: Scanner를 sc라는 이름으로 사용하겠다는 뜻, sc는 이름 바꿔도 됨
+		Scanner sc = new Scanner(System.in);
+		System.out.println(sc.nextLine());
+	}
+
+}
